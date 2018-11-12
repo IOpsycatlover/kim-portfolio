@@ -5,21 +5,32 @@ html {
 
 html {font-size: 18px;}
 p{
-  font-size: 10pt
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+h1, h2, h3{
+  font-family: Monoton;
+  text-align: justify;
+}
+
+h4,{
+  font-family: Roboto;
+  text-align: justify;
 }
 
 nav {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1.25fr 1.25fr 1.25fr;
   list-style: none;
-  text-align: center;
+  text-align: right;
   padding: 10px 50px ;
-  font-family:"Verdana", sans-serif;
+  font-family:"Roboto", sans-serif;
 }
 
 body {
   display: grid;
-  font-family:"Verdana", Palatino, sans-serif;
+  font-family:"Roboto", sans-serif;
 
 }
   </body>
