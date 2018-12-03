@@ -2,10 +2,20 @@
 <html lang="en">
   <head>
     <main>
-      <a href="index.HTML">
+      <a href="index.html">
       <img src="assets/img/img 7.jpg"
-      style=width:1200px;height:250px;
-      img align="middle" title="Soonyoung's Cats" alt="Cats"></a>
+      style=width:1200px;height:300px;
+      img align="middle" title="Soonyoung's Cats" alt="Cats"
+      class="center"></a>
+
+    <style>
+    .img {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    </style>
+ </main>
 
     <title>Soonyoung C. Kim Portfolio</title>
     <meta charset="utf-8">
@@ -25,6 +35,33 @@
         <li><a href="media.html">Media</a></li>
     </ul>
   </nav>
+
+  <style>
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+      float: right;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  li a:hover {
+      background-color: #111;
+  }
+
+  </style>
 
   <div>
     <h1>Soonyoung Kim - Virginia Tech Student </h1>
@@ -109,8 +146,24 @@ h2 {
       I am working hard as a third-year undergraduate student while preparing to go to <b>a doctorate program of I/O Psychology for Fall semester of 2020.</b>
     </p>
 
-  <div class="footer">
-      This footer will always be positioned at the bottom of the page, but not fixed.
+    <style>
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 25px;
+      background-color: blue;
+      color: white;
+      text-align: center;
+      padding-top: 0px;
+      padding-bottom: 5px;
+    }
+    </style>
+    
+    <div class="footer">
+      <p>Footer</p>
     </div>
+
   </body>
 </html>
