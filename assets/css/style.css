@@ -9,6 +9,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   width:1200px;height:300px
+  align: middle;
 }
 
 .page {
@@ -50,23 +51,12 @@ h3 {
 
 ul{
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
   overflow: hidden;
   background-color: #ffd8ff;
 }
 
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #d8ffd8;
-}
 
 li{
   font-family: 'Ubuntu', sans-serif;
@@ -84,7 +74,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   list-style: none;
-  text-align: right;
+  text-align: middle;
   padding: 0 0;
   font-family: 'Montserrat',sans-serif;
   }
